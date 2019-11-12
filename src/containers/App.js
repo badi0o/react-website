@@ -15,7 +15,7 @@ class App extends Component {
     persons: [
       {id: 'dss', name:'Max', age:28 },
       {id: 'as123', name:'manu', age:29 },
-      {id: 'vfvae', name:'steph', age:22 }
+      // {id: 'vfvae', name:'steph', age:22 }
     ],
     showPersons: false,
     word:'',
@@ -74,7 +74,7 @@ deletePersonHandler = (personIndex) => {
     this.setState({cockpit: !show});
   };
 
-  loginHandler = () =>{
+  loginHandler = () =>{ 
     this.setState({authenticated:true});
   };
 
